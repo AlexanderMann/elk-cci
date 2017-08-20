@@ -45,4 +45,4 @@ You will be required to have sent some data to Logstash to output in order to us
 ## Add a Dashboard/Graph
 You can now start exploring the values capture by Logstash in Kibana by creating a dashboard, and a graph, or simply going to `Discover`.
 
-<>
+<img width="1367" alt="screen shot 2017-08-20 at 11 09 51" src="https://user-images.githubusercontent.com/3885029/29496450-70916b54-8598-11e7-99ba-40b26c681ec3.png">
