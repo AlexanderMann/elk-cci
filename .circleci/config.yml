@@ -29,6 +29,7 @@ workflows:
   deploy:
     jobs:
       - deploy:
+          context: org-global
           filters:
             branches:
               only: master
