@@ -5,9 +5,6 @@
 
 All the goodies necessary for testing/using ELK and TCP input in Circle CI.
 
-Spujadas
-https://github.com/spujadas/elk-docker
-
 See [here](https://github.com/spujadas/elk-docker) for Spujadas's excellent github repo for this.
 
 This container was built with (the now not so recommended) [TCP input mechanism for Log4J](https://www.elastic.co/guide/en/logstash/current/plugins-inputs-tcp.html) and [Timbre](https://github.com/ptaoussanis/timbre/blob/master/src/taoensso/timbre/appenders/3rd_party/logstash.clj) in mind.
