@@ -1,5 +1,19 @@
 version: 2.0
 jobs:
+  build:
+    docker:
+      - image: alpine/latest
+        environment:
+          A_TEST: helloworld
+    working_directory: /root/contexts-service
+    steps:
+      - checkout
+      - run:
+          name: testtesttests
+          command: |
+            env | grep A_TEST
+            env | grep CONTEXT_TEST
+
   deploy:
     machine:
       enabled: true
@@ -28,6 +42,8 @@ workflows:
   version: 2
   deploy:
     jobs:
+      - build:
+          context: org-global
       - deploy:
           context: org-global
           filters:
