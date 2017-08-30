@@ -11,7 +11,7 @@ jobs:
       - run:
           name: testtesttests
           command: |
-            env | grep  A_TEST
+            env | grep A_TEST
             env | grep CONTEXT_TEST
 
   deploy:
